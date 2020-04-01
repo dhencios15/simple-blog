@@ -19,11 +19,11 @@
 * [X] JWT Autentication for Signup & Signin
     * [x] Signin
     * [x] Signup
-* [] Error Handling
-    * [] Signup forms Error handling
-    * [] Signin forms Error handling
+* [ ] Error Handling
+    * [ ] Signup forms Error handling
+    * [ ] Signin forms Error handling
     * [x] Handling Authentication Eror
-* [] Posts
+* [ ] Posts
     * Add/Create Post
        * [x] User can add Comments
        * [x] User can like Posts
@@ -31,11 +31,11 @@
        * [x] Dispaly Comments & Likes
     * [x] Update Post
     * [x] Delete Post
-* [] Search Post
-* [] Profile Page
-    * [] Display Basic User's Info
-    * [] Display Users Posts
-    * [] Display Users Liked Posts
-* [] Deployment using Heroko
-    * [] Refactoring code
-    * [] Deploy
+* [ ] Search Post
+* [ ] Profile Page
+    * [ ] Display Basic User's Info
+    * [ ] Display Users Posts
+    * [ ] Display Users Liked Posts
+* [ ] Deployment using Heroko
+    * [ ] Refactoring code
+    * [ ] Deploy
