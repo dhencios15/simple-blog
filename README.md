@@ -19,11 +19,11 @@
 * [X] JWT Autentication for Signup & Signin
     * [x] Signin
     * [x] Signup
-* [ ] Error Handling
+* Error Handling
     * [ ] Signup forms Error handling
     * [ ] Signin forms Error handling
-    * [x] Handling Authentication Eror
-* [ ] Posts
+    * [x] Handling Authentication Error
+* Posts
     * Add/Create Post
        * [x] Create Post
        * [x] User can add Comments
