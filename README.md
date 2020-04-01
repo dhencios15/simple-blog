@@ -25,9 +25,11 @@
     * [x] Handling Authentication Eror
 * [ ] Posts
     * Add/Create Post
+       * [x] Create Post
        * [x] User can add Comments
        * [x] User can like Posts
     * Display Post
+       * [x] Display all Post
        * [x] Dispaly Comments & Likes
     * [x] Update Post
     * [x] Delete Post
@@ -36,6 +38,6 @@
     * [ ] Display Basic User's Info
     * [ ] Display Users Posts
     * [ ] Display Users Liked Posts
-* [ ] Deployment using Heroko
+* Deployment using Heroko
     * [ ] Refactoring code
     * [ ] Deploy
