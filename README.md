@@ -10,8 +10,10 @@
 * [x] Create resolvers
 * [x] Read typdefs to the server using readfile
 * [x] Generate Vue App
-* [x] Design Homepage
-* [x] Design Login & Register page
+* Front-End
+   * [x] Design Homepage
+   * [x] Design Login & Register page
+   * [ ] Design User's Profile
 * [x] Connect Client and Server Using apollo-boost & vue-apollo
 * [x] Integrate Vuex with Apolloclient
     * [x] Stores Users
