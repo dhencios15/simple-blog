@@ -32,7 +32,7 @@ const getUser = async token => {
       return await jwt.verify(token, process.env.SECRET);
     } catch (err) {
       throw new AuthenticationError(
-        'Your seession has ened. Please sign in again'
+        'Your seession has ended. Please sign in again'
       );
     }
   }
@@ -51,4 +51,4 @@ const server = new ApolloServer({
   }
 });
 
-server.listen(PORT, () => console.log(`SERVER LISTEN AT ${PORT}`));
+server.listen(PORT || 4000, () => console.log(`SERVER LISTEN AT ${PORT}`));

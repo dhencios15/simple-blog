@@ -89,6 +89,12 @@ module.exports = {
     getUsers: async (_, args, { User }) => {
       const users = await User.find({});
       return users;
+    },
+    getUserPosts: async (_, { userId }, { Post }) => {
+      const posts = await Post.find({
+        createdBy: userId
+      });
+      return posts;
     }
   },
   Mutation: {
@@ -124,6 +130,23 @@ module.exports = {
         model: 'User'
       });
       return post.messages[0];
+    },
+    updateUserPost: async (
+      _,
+      { postId, userId, title, imageUrl, categories, description },
+      { Post, User }
+    ) => {
+      const post = await Post.findOneAndUpdate(
+        // Find post by postid and createdby
+        { _id: postId, createdBy: userId },
+        { $set: { title, imageUrl, categories, description } },
+        { new: true }
+      );
+      return post;
+    },
+    deleteUserPost: async (_, { postId }, { Post }) => {
+      const post = await Post.findOneAndRemove({ _id: postId });
+      return post;
     },
     likePost: async (_, { postId, username }, { Post, User }) => {
       // Find Post, Add 1 to its 'likes' value
