@@ -49,6 +49,7 @@ type Query {
   getUsers: [User]
   getPosts: [Post]
   getPost(postId: ID!): Post!
+  searchPosts(searchTerm: String): [Post]
   infiniteScrollPosts(pageNum: Int!, pageSize: Int!): PostsPage
 }
 
