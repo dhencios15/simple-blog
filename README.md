@@ -25,6 +25,7 @@
     * [ ] Signup forms Error handling
     * [ ] Signin forms Error handling
     * [x] Handling Authentication Error
+    * [ ] Format Dates
 * Posts
     * Add/Create Post
        * [x] Create Post
