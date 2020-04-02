@@ -13,7 +13,7 @@
 * Front-End
    * [x] Design Homepage
    * [x] Design Login & Register page
-   * [ ] Design User's Profile
+   * [x] Design User's Profile
 * [x] Connect Client and Server Using apollo-boost & vue-apollo
 * [x] Integrate Vuex with Apolloclient
     * [x] Stores Users
@@ -35,11 +35,11 @@
        * [x] Dispaly Comments & Likes
     * [x] Update Post
     * [x] Delete Post
-* [ ] Search Post
+* [x] Search Post
 * [ ] Profile Page
-    * [ ] Display Basic User's Info
+    * [x] Display Basic User's Info
     * [ ] Display Users Posts
-    * [ ] Display Users Liked Posts
+    * [x] Display Users Liked Posts
 * Deployment using Heroko
     * [ ] Refactoring code
     * [ ] Deploy
