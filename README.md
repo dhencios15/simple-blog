@@ -37,9 +37,9 @@
     * [x] Update Post
     * [x] Delete Post
 * [x] Search Post
-* [ ] Profile Page
+* [x] Profile Page
     * [x] Display Basic User's Info
-    * [ ] Display Users Posts
+    * [x] Display Users Posts
     * [x] Display Users Liked Posts
 * Deployment using Heroko
     * [ ] Refactoring code
