@@ -84,4 +84,3 @@
 * Deployment using Heroko
     * [ ] Refactoring code
     * [ ] Deploy
->>>>>>> b5d92830c30fc96a63c08da3d5e6574cb0f5be6c
