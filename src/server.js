@@ -13,7 +13,6 @@ const resolvers = require('./graphql/resolvers');
 require('dotenv').config();
 const User = require('./models/User');
 const Post = require('./models/Post');
-const PORT = process.env.PORT || 4001;
 const URI = process.env.MONGO_URI;
 
 mongoose
@@ -51,4 +50,6 @@ const server = new ApolloServer({
   }
 });
 
-server.listen(PORT || 4000, () => console.log(`SERVER LISTEN AT ${PORT}`));
+server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
+  console.log(`🚀 Server ready at ${url}`);
+});
