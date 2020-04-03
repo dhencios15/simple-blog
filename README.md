@@ -43,4 +43,4 @@
     * [x] Display Users Liked Posts
 * Deployment using Heroko
     * [ ] Refactoring code
-    * [ ] Deploy
+    * [x] Deploy
