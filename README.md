@@ -25,6 +25,7 @@
     * [ ] Signup forms Error handling
     * [ ] Signin forms Error handling
     * [x] Handling Authentication Error
+    * [ ] Format Dates
 * Posts
     * Add/Create Post
        * [x] Create Post
@@ -36,9 +37,9 @@
     * [x] Update Post
     * [x] Delete Post
 * [x] Search Post
-* [ ] Profile Page
+* [x] Profile Page
     * [x] Display Basic User's Info
-    * [ ] Display Users Posts
+    * [x] Display Users Posts
     * [x] Display Users Liked Posts
 * Deployment using Heroko
     * [ ] Refactoring code
